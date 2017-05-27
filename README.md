@@ -24,6 +24,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Folder information:
+## Folder Information
 - [on-startup](on-startup/README.md): Code that is to be added to .bashrc to run on startup
 - [sdk](sdk/README.md): Assistant SDK edits. The SDK is Copyright (c) 2017 Google Inc., but some edits may have been made. Check [their website](https://developers.google.com/assistant/sdk) for more information.
