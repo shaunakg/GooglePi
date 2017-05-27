@@ -6,4 +6,4 @@
 2. To say a sentence, run this command:
     - `say "<YOUR PHRASE HERE>"`
     
-### You are finished with setting up TTS. You can now use the on-startup/googstart_TTS file on your Raspberry Pi.
+### You are finished with setting up TTS. You can now use the [on-startup/googstart_TTS file](GooglePi/on-startup/googstart_TTS) on your Raspberry Pi.
