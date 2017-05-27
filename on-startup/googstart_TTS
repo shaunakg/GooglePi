@@ -1,0 +1,38 @@
+# GOOGSTART - TEXT-TO-SPEECH EDITION
+# for more info on how to setup TTS, see the 'help' folder.
+# To run this file on startup, see 'how-to-run'.
+#!/bin/bash
+# Navigate to home folder and go to virtual environment
+cd /home/pi
+source env/bin/activate
+
+# TEXT TO SPEECH CODE
+say "<TEXT TO SPEECH>"
+
+# echo a start-up screen
+echo
+echo ------------------------------------------------
+echo The Google Pi: Google Assistant on Raspberry Pi
+echo   Internal Codename - <INTERNAL CODENAME>
+echo ------------------------------------------------
+echo
+echo DEVELOPERS/PROGRAMMERS:
+echo If you can see this echo output, you are connected to a screen.
+echo To got into normal terminal conditions, please PRESS CTRL+C NOW.
+echo
+# OPTIONAL: un-comment the below code to get a Text-to-Speech output. You can also see the file 'googstart_TTS'.
+# say "<YOUR TTS OUTPUT HERE>"
+# Credits
+echo --- Credits ---
+echo Hardware and Creator: <INSERT CREATOR NAME>
+echo Software - Google Assistant API: Google
+echo Software - Python Virtual Envionment: Python
+echo Software - Raspbian OS: The Raspberry Pi Foundation, Inc.
+echo Software - Other: Makers of Linux shell and bash
+# you can add credits if you like
+echo
+echo --- Instructions ---
+echo To start a new command, say Hey Google! or OK Google.
+echo
+#start google assistant
+google-assistant-demo
