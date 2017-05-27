@@ -1,11 +1,10 @@
 # GooglePi
 A Raspberry Pi modified to run Google Assistant using Google's SDK. You can find the SDK [here.](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/)
 
-LICENSE:
+## LICENSE
 
-MIT License
-
-Copyright (c) 2017 @jacksonsevendelta
+**MIT License
+Copyright (c) 2017 @jacksonsevendelta**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,5 +25,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Folder information:
-[on-startup](on-startup/README.md): Code that is to be added to .bashrc to run on startup
-sdk(sdk/README.md): Assistant SDK edits. The SDK is Copyright (c) 2017 Google Inc., but some edits may have been made. Check [their website](https://developers.google.com/assistant/sdk) for more information.
+- [on-startup](on-startup/README.md): Code that is to be added to .bashrc to run on startup
+- [sdk](sdk/README.md): Assistant SDK edits. The SDK is Copyright (c) 2017 Google Inc., but some edits may have been made. Check [their website](https://developers.google.com/assistant/sdk) for more information.
