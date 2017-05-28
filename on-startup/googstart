@@ -16,7 +16,7 @@ echo If you can see this echo output, you are connected to a screen.
 echo To got into normal terminal conditions, please PRESS CTRL+C NOW.
 echo
 # OPTIONAL: un-comment the below code to get a Text-to-Speech output. You can also see the file 'googstart_TTS'.
-# say "<YOUR TTS OUTPUT HERE>"
+# say "Assistant has started."
 # Credits
 echo --- Credits ---
 echo Hardware and Creator: <INSERT CREATOR NAME>
