@@ -7,4 +7,4 @@ This is the folder for on-startup files that can be transferred to the Raspberry
 - Choosing which version to run
 - Show a credits screen
 - Show a title page
-- Use TTS (see [here](help/setup_text-to-speech.md))
+- Use TTS (see [here](GooglePi/help/setup_text-to-speech.md))
