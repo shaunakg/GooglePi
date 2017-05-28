@@ -1,13 +1,18 @@
 # GOOGSTART - TEXT-TO-SPEECH EDITION
 # for more info on how to setup TTS, see the 'help' folder.
 # To run this file on startup, see 'how-to-run'.
+
 #!/bin/bash
+
 # Navigate to home folder and go to virtual environment
 cd /home/pi
 source env/bin/activate
 
+# set volume (you can find how to do this in help/raise-volume.md
+amixer sset PCM,0 100%
+
 # TEXT TO SPEECH CODE
-say "<TEXT TO SPEECH>"
+say "Assistant Ready."
 
 # echo a start-up screen
 echo
@@ -20,8 +25,7 @@ echo DEVELOPERS/PROGRAMMERS:
 echo If you can see this echo output, you are connected to a screen.
 echo To got into normal terminal conditions, please PRESS CTRL+C NOW.
 echo
-# OPTIONAL: un-comment the below code to get a Text-to-Speech output. You can also see the file 'googstart_TTS'.
-# say "<YOUR TTS OUTPUT HERE>"
+
 # Credits
 echo --- Credits ---
 echo Hardware and Creator: <INSERT CREATOR NAME>
