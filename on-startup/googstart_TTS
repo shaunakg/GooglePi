@@ -11,8 +11,16 @@ source env/bin/activate
 # set volume (you can find how to do this in help/raise-volume.md
 amixer sset PCM,0 100%
 
-# TEXT TO SPEECH CODE
-say "Assistant Ready."
+# Check internet connection + new TEXT TO SPEECH CODE
+if ping -c 1 google.com >> /dev/null 2>&1; then
+    say "Assistant starting..."
+else
+    say "Warning: Internet Connection Offline. Shutting down..."
+    echo ERROR: Ping request not returned.
+    echo Shutting down in 5 seconds.
+    sleep 5
+    shutdown -h now
+fi
 
 # echo a start-up screen
 echo
@@ -23,7 +31,7 @@ echo ------------------------------------------------
 echo
 echo DEVELOPERS/PROGRAMMERS:
 echo If you can see this echo output, you are connected to a screen.
-echo To got into normal terminal conditions, please PRESS CTRL+C NOW.
+echo To got into normal terminal conditions, please PRESS CTRL+C in 2 seconds.
 echo
 
 # Credits
@@ -38,5 +46,9 @@ echo
 echo --- Instructions ---
 echo To start a new command, say Hey Google! or OK Google.
 echo
+
+# wait 2 seconds: developer purposes
+sleep 2
+
 #start google assistant
 google-assistant-demo
