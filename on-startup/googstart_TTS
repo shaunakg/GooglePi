@@ -4,7 +4,7 @@
 
 #!/bin/bash
 
-# Navigate to home folder and go to virtual environment
+# Navigate to home folder and go to virtual environment (this may not work, leaving it in just in case, though)
 cd /home/pi
 source env/bin/activate
 
@@ -16,8 +16,8 @@ if ping -c 1 google.com >> /dev/null 2>&1; then
     say "Assistant starting..."
 else
     say "Warning: Internet Connection Offline. Shutting down..."
-    echo ERROR: Ping request not returned.
-    echo Shutting down in 5 seconds.
+    echo ERROR: Ping request not returned. Your internet connection is probably offline
+    echo or not working. Shutting down in 5 seconds (you can press CTRL-C to abort).
     sleep 5
     shutdown -h now
 fi
