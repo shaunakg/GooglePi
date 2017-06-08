@@ -7,6 +7,6 @@ echo UPDATING PROGRAM
 git clone https://github.com/jacksonsevendelta/GooglePi
 cd GooglePi/on-startup
 git pull
-sudo chmod +x googstart_TTS
+sudo chmod +x googstartTTS
 echo program updated
 ./googstartTTS
