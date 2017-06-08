@@ -1,3 +1,4 @@
+#!/bin/bash
 echo ECHO TEST
 echo ---
 echo Tango Echo Sierra Tango
