@@ -9,4 +9,4 @@ cd GooglePi/on-startup
 git pull
 sudo chmod +x googstart_TTS
 echo program updated
-./googstart_TTS
+./googstartTTS
