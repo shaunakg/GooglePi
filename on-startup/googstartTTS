@@ -36,7 +36,8 @@ echo
 
 # Credits
 echo --- Credits ---
-echo Hardware and Creator: <INSERT CREATOR NAME>
+echo Creator: https://github.com/jacksonsevendelta/
+echo Software - Startup Script: Miscellaneous Users
 echo Software - Google Assistant API: Google
 echo Software - Python Virtual Envionment: Python
 echo Software - Raspbian OS: The Raspberry Pi Foundation, Inc.
