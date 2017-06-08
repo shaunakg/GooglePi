@@ -3,12 +3,10 @@
 
 #!/bin/bash
 cd
-echo 
-echo --- UPDATING PROGRAM ---
+echo UPDATING PROGRAM
 git clone https://github.com/jacksonsevendelta/GooglePi
 cd GooglePi/on-startup
 git pull
 sudo chmod +x googstart
-echo 
-echo --- program updated ---
+echo program updated
 ./googstart
