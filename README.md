@@ -1,6 +1,8 @@
 # GooglePi
 A Raspberry Pi modified to run Google Assistant using Google's SDK. You can find the SDK [here.](https://developers.google.com/assistant/sdk/prototype/getting-started-pi-python/)
 
+## For more information, visit [our Reddit page](https://reddit.com/r/googlepi)
+
 ## LICENSE
 
 **MIT License
