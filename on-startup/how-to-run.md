@@ -1,4 +1,7 @@
 # Start Up Run Instructions
+#### Instructions have moved, see [here.](https://www.reddit.com/r/googlepi/comments/6gr2ih/update_added_a_selfupdater_onstartupupdatesh/)
+
+## Old instructions
 1. Open Terminal/Command Line on your Raspberry Pi
     - you can also SSH into it
 
@@ -12,5 +15,3 @@
     - the `&` is necessary as the program does not quit
 
 4. Press `CTRL+X`, then `y`, then `ENTER`
-
-### Your file will now be run on startup.
