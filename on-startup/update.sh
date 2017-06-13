@@ -3,10 +3,12 @@
 
 #!/bin/bash
 cd
-echo UPDATING PROGRAM
-git clone https://github.com/jacksonsevendelta/GooglePi
+echo UPDATING PROGRAM> /home/pi/loglatest.txt
+echo Checking for an already-cloned repo...> /home/pi/loglatest.txt
+git clone https://github.com/jacksonsevendelta/GooglePi> /home/pi/loglatest.txt
 cd GooglePi/on-startup
-git pull
-sudo chmod +x googstartTTS
-echo program updated
-./googstartTTS
+echo Starting pull...> /home/pi/loglatest.txt
+git pull> /home/pi/loglatest.txt
+sudo chmod +x googstartTTS> /home/pi/loglatest.txt
+echo program updated> /home/pi/loglatest.txt
+./googstartTTS> /home/pi/loglatest.txt
